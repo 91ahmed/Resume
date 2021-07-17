@@ -1,0 +1,31 @@
+body{
+	direction: rtl !important;
+}
+.timeline-content .head,
+.contact-info i{
+	float: right;
+}
+.timeline-content .head:before{
+	right: auto;
+	left: -8px;
+}
+.timeline-line{
+	left: auto;
+    right: calc(20% + 2px);
+}
+.timeline-content .body{
+	float: left;
+	padding-right: 60px;
+}
+.contact-info .details {
+    margin-right: 40px;
+}
+.section-title,
+.timeline-content .head,
+.contact-info .details,
+.timeline-content .body,
+#about,
+#portfolio,
+#skills{
+	text-align: right !important;
+}
